@@ -1,0 +1,271 @@
+*{
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.common-width{
+   width: 1140px; 
+}
+.common{
+margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+}
+
+/* header styles */
+
+header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: right;
+    padding-bottom: 80px;
+    padding-top: 170px;
+}
+
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+    
+    line-height: 76px;
+    margin-bottom: 24px;
+    
+    /* banner item align right draft */
+    padding-right: 150px;
+    margin-left: 500px;
+    
+}
+
+.banner-description{
+    margin-bottom: 31px;
+    line-height: 26px;
+
+    /* banner item align right draft */
+    padding-right: 150px;
+    margin-left: 680px;
+}
+
+.banner-btn{
+    background-color: #F15B22;
+    border: 0;
+    color: #fff;
+
+    /* banner item align right draft */
+    margin-right: 150px;
+    margin-left: 500px;
+}
+
+.banner-btn:hover{
+    background-color: #f19722;
+}
+
+/*---- main section start---- */
+/* previous-year section */
+
+.previous-year{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.previous-year-content{
+    margin-top: 240px;
+}
+
+.prev-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.prev-description{
+    margin-bottom: 24px;
+}
+.prev-description,
+.prev-list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    
+}
+
+.prev-list{
+    list-style-type: none;
+}
+
+.prev-list li i{
+    color: #16D887;
+}
+
+/* My plan section*/
+.my-plan{
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.plan-title{
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.plan-content h3{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.plan-content p{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+/* Gradient block*/
+.gradient-container{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+
+}
+
+.gradient{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding: 60px;
+    border-radius: 7px;
+}
+
+.gradient h3{
+    font-size: 40px;
+    color: #f7f5df;
+    margin-bottom: 20px;
+}
+
+.gradient button,
+.subscribe-btn{
+    color: #F15B22;
+    background: #f7f5df;
+}
+
+.gradient button:hover{
+    color: #d14d1b;
+    background: #edebd5;
+}
+
+/* ------------- My Section ------------ */
+
+.my-section{
+    display: flex;
+    gap: 30px;
+}
+.my-section-heading{
+    width: 400px;
+    height: 315px;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 30px;
+}
+.my-section h4{
+    color: #f25b21;
+    font-size: 45px;
+    padding: 40px;
+}
+
+/* Footer Section */
+
+footer{
+    background: #151414;
+}
+
+.footer-container{
+    display: flex;
+    gap: 150px;
+}
+
+.footer-one{
+    max-width: 485px;
+    color: #f7f5df;
+}
+
+.footer-one h1{
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+
+.footer-one p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-one .footer-social {
+    margin-top: 20px;
+}
+
+.footer-one .footer-social a i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #f7f5df;
+}
+
+.footer-one .footer-social a i:hover{
+    color: #F15B22;
+}
+
+.footer-two h3{
+    color: #f7f5df;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+input{
+    border: 0;
+}
+.footer-two form input[type='email']{
+    border: 1px solid #f7f5df;
+    padding: 20px 20px;
+    background-color: rgba(21, 20, 20, 0);
+    color: #f7f5df;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.subscribe-btn:hover{
+    background: #F15B22;
+    color: #f7f5df;
+}
